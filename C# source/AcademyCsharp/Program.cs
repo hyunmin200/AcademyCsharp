@@ -26,6 +26,7 @@ namespace AcademyCsharp
         
         static void Main(string[] args)
         {
+
             #region 변수
             {
                 //자료형이란?
@@ -69,6 +70,7 @@ namespace AcademyCsharp
            // 메모리 공간을 가지고 있는 상수
 
             #endregion
+
         }
     }
 }
