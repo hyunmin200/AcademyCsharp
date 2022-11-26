@@ -1,0 +1,8 @@
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\AcademyCsharp\bin\Debug\AcademyCsharp.exe.config
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\AcademyCsharp\bin\Debug\AcademyCsharp.exe
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\AcademyCsharp\bin\Debug\AcademyCsharp.pdb
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\AcademyCsharp\obj\Debug\AcademyCsharp.csproj.AssemblyReference.cache
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\AcademyCsharp\obj\Debug\AcademyCsharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\AcademyCsharp\obj\Debug\AcademyCsharp.csproj.CoreCompileInputs.cache
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\AcademyCsharp\obj\Debug\AcademyCsharp.exe
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\AcademyCsharp\obj\Debug\AcademyCsharp.pdb
