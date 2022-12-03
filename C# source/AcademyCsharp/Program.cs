@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,66 +11,151 @@ namespace AcademyCsharp
 {
     class Program
     {
-        // 주석
-        // 주석은 컴퓨터 입장에서 문법적인 오류들 생성하지 않고,
-        // 설명문을 적어줄 수 있는 기능입니다.
+        // 전역 변수
+        // 함수의 외부에서 선언된 변수로, 어디에서든 접근이 가능하며,
+        // 프로그램이 종료되어야만 메모리에서 사라지는 특징을 가집니다.
+        int valueable = 10;
 
-        // Main 함수에 넣어주지 않는다면 실행이 되지 않는다.
+        // 정적 변수
+        // 지역 변수와 전역 변수의 특성을 동시에 가지는 변수이며, 프로그램이
+        // 종료되어야만 메모리에서 사라지는 특징을 가지고 있는 변수입니다.
+        static int signal = 0;
 
-        //Main() 함수 <- 프로그램이 시작되는 진입점입니다.
-        //{
-        //  전투 시스템 <- Main 함수 안 쪽에 넣어주셔야 합니다.
-        //
-        //}
-
-        // 주석을 하게 되면 실행이 되지 않는다.
-        
         static void Main(string[] args)
         {
-
-            #region 변수
+            // 값 형식
+            #region 값 형식
             {
-                //자료형이란?
-                //변수에 값을 저장하기 이전에 정수인지, 실수인지, 문자인지
-                // 미리 알려주는 명령어 이다.
+                // 변수가 갑을 담는 데이터 형식입니다.
 
-                // 변수란?
-                // 어떤 공간에 어떤 값을 저장하기 위한 이름을 가진 공간입니다.
+                // char, short, int, long, float, double
 
-                // ; : 하나의 문단을 끝내는 기호입니다.
-                //char a = 'a';
-                //string b = "안녕하세요";
-                //int health = 3;
+                // 변수의 명명 규칙
+                // 1. 같은 이름의 변수를 사용할 수 없습니다.
+                // 2. 변수의 첫번째 단어를 숫자로 시작할 수 없습니다.
+                // 3. 변수의 이름에 공백이 존재할 수 없습니다.
+                // 4. 변수의 이름에 특수 기호를 사용하려면 _만 가능합니다.
+                // 5. 변수의 이름으로 예약어를 사용할 수 없습니다.
 
-                //unsigned 사용
-                //ushort value = 50000;
-                //float attack = 50.5f;
+                // 지역 변수
+                // 지정된 지역에서만 사용할 수 있는 변수입니다.
+                // 변수가 선언된 블록 내에서만 유효하며, 블록이 종료되면
+                // 메모리에서 사라지는 특징을 가지고 있다.
 
-                //Console.WriteLine : 출력해주는 함수이다.
-                //Console.WriteLine("Hello, World");
-                //Console.WriteLine("C#");
+                int value = 20;
+                float count_Down = 10.56f;
 
-                //변수에 있는 값을 출력할 떄는 ""를 하지 않아도 됩니다.
-                //Console.WriteLine("a의 값 : " + a);
-                //Console.WriteLine("b의 값 : " + b);
-                //Console.WriteLine("health의 값 : " + health);
-                //Console.WriteLine("attack의 값 : " + attack);
-                //Console.WriteLine(health + attack);
+                {
+                    int value3 = 10;
+                }
+
+                value = 10;
+
+                Console.WriteLine("value의 값 : " + value);
+                Console.WriteLine("count_Down의 값 : " + count_Down);
+                Console.WriteLine("signal의 값 : " + signal);
+
+                // 스택 영역
+                // 함수의 호출과 관계되는 지역 변수와 매개변수가
+                // 저장되는 영역입니다.
             }
             #endregion
 
-            #region 상수
-           // const int a = 12345;
-           // 상수는 컴파일 시점에 현재 메모리에 있는 값이 고정되기 때문에 값을 바꿀 수 없습니다.
-           // a = 1;
+            // 참조 형식
+            #region 참조 형식
+            // 변수가 값 대신 값이 있는 곳의 위치를 참조하여 저장하는
+            // 데이터 형식입니다.
 
-           // 리터럴 상수
-           // 메모리 공간을 가지고 있지 않은 상수
+            // 배열
+            // 같은 자료형의 변수들로 이루어진 유한 집합입니다.
+            int[] array = new int[] {10, 20, 30, 40, 50};
+            // 배열의 크기를 생략하게 되면 컴파일러가 알아서 배열의 인덱스를 
+            // 보고 크기를 자동으로 설정한다.
 
-           // 심볼릭 상수
-           // 메모리 공간을 가지고 있는 상수
+            Console.WriteLine("\nArray\n");
 
+            for(int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("array[{0}]의 값은 : " + array[i], i);
+            }
+
+            Console.WriteLine("\nSpcae\n");
+
+            int[] space = new int[10] { 10, 20, 30, 40, 50, 60, 70, 80, 90, 10 };
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("space[{0}]의 값은 : " + space[i], i);
+            }
+
+            //배열의 크기는 프로그램이 실행되는 동안 변경할 수 없습니다.
+
+            // class, interface, array, enum, object, string
+
+            string name = "HwangHyunMin"; // 12개의 문자
+            name = "twowon"; // 6개 문자
+            Console.WriteLine("name 변수의 값 : " + name);
+
+            // 힙 영역
+            // 사용자가 직접 메모리 공간을 저정하고 해제하는 영역입니다.
             #endregion
+
+            // 조건문
+            // 어떤 조건이 주어질 때 해당 조건에 따라 동작을 수행하도록 실행
+            // 하는 명령문입니다.
+            // if(조건문)
+            // {
+            //     실행할 코드
+            // }
+
+
+
+            // 관계 연산자
+            // 두 개의 피연산자의 값을 비교하여 그 결과를 true(1) false(0)
+            // 이라는 값으로 나타내는 연산자입니다.
+
+            // < -> x > y (x가 y보다 크다면)
+            // > -> x < y (x가 y보다 작다면)
+            // <= -> x <= y (x가 y보다 작거나 같다면)
+            // >= -> x >= y (x가 y보다 크거나 같다면)
+            // == -> x == y (x와 y의 값이 같다면)
+            // != -> x != y (x와 y의 값이 같지 않다면)
+
+            bool check1 = 10 > 5;
+            bool check2 = 10 < 5;
+            bool check3 = 10 >= 5;
+            bool check4 = 10 <= 5;
+            bool check5 = 10 == 5;
+            bool check6 = 10 != 5;
+
+            Console.WriteLine(check1);
+            Console.WriteLine(check2);
+            Console.WriteLine(check3);
+            Console.WriteLine(check4);
+            Console.WriteLine(check5);
+            Console.WriteLine(check6);
+
+            Console.ReadLine();
+
+            // if 문
+            // 어떤 특정한 조건을 비교하여 조건이 맞다면 실행하는 명령문
+
+            // if문에 연결된 모든 조건문의 조건이 맞을 때 가장 위에 있는
+            // 조건문만 실행됩니다.
+            if(10 == 10)
+            {
+                Console.WriteLine("a");
+            }
+            else if(10 == 10)
+            {
+                Console.WriteLine("b");
+            }
+
+            // else if문
+            // if문의 조건이 틀릴 때 else if문의 조건이 맞다면 실행되는 명령문 입니다.
+
+            // 반복문이란?
+            // 프로그램 내에서 특정한 작업을 반복적으로 수행하는 명령문입니다.
 
         }
     }
