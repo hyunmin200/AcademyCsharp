@@ -18,11 +18,8 @@ namespace AcademyCsharp
         // 종료되어야만 메모리에서 사라지는 특징을 가지고 있는 변수입니다.
         static int signal = 0;
 
-        static void Main(string[] args)
-        {
             // 값 형식
             #region 값 형식
-            {
                 // 변수가 갑을 담는 데이터 형식입니다.
 
                 // char, short, int, long, float, double
@@ -39,23 +36,22 @@ namespace AcademyCsharp
                 // 변수가 선언된 블록 내에서만 유효하며, 블록이 종료되면
                 // 메모리에서 사라지는 특징을 가지고 있다.
 
-                int value = 20;
-                float count_Down = 10.56f;
+                //int value = 20;
+                //float count_Down = 10.56f;
 
-                {
-                    int value3 = 10;
-                }
+                //{
+                //    int value3 = 10;
+                //}
 
-                value = 10;
+                //value = 10;
 
-                Console.WriteLine("value의 값 : " + value);
-                Console.WriteLine("count_Down의 값 : " + count_Down);
-                Console.WriteLine("signal의 값 : " + signal);
+                //Console.WriteLine("value의 값 : " + value);
+                //Console.WriteLine("count_Down의 값 : " + count_Down);
+                //Console.WriteLine("signal의 값 : " + signal);
 
                 // 스택 영역
                 // 함수의 호출과 관계되는 지역 변수와 매개변수가
                 // 저장되는 영역입니다.
-            }
             #endregion
 
             // 참조 형식
@@ -65,33 +61,33 @@ namespace AcademyCsharp
 
             // 배열
             // 같은 자료형의 변수들로 이루어진 유한 집합입니다.
-            int[] array = new int[] { 10, 20, 30, 40, 50 };
-            // 배열의 크기를 생략하게 되면 컴파일러가 알아서 배열의 인덱스를 
-            // 보고 크기를 자동으로 설정한다.
+            //int[] array = new int[] { 10, 20, 30, 40, 50 };
+            //// 배열의 크기를 생략하게 되면 컴파일러가 알아서 배열의 인덱스를 
+            //// 보고 크기를 자동으로 설정한다.
 
-            Console.WriteLine("\nArray\n");
+            //Console.WriteLine("\nArray\n");
 
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine("array[{0}]의 값은 : " + array[i], i);
-            }
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.WriteLine("array[{0}]의 값은 : " + array[i], i);
+            //}
 
-            Console.WriteLine("\nSpcae\n");
+            //Console.WriteLine("\nSpcae\n");
 
-            int[] space = new int[10] { 10, 20, 30, 40, 50, 60, 70, 80, 90, 10 };
+            //int[] space = new int[10] { 10, 20, 30, 40, 50, 60, 70, 80, 90, 10 };
 
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine("space[{0}]의 값은 : " + space[i], i);
-            }
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine("space[{0}]의 값은 : " + space[i], i);
+            //}
 
-            //배열의 크기는 프로그램이 실행되는 동안 변경할 수 없습니다.
+            ////배열의 크기는 프로그램이 실행되는 동안 변경할 수 없습니다.
 
-            // class, interface, array, enum, object, string
+            //// class, interface, array, enum, object, string
 
-            string name = "HwangHyunMin"; // 12개의 문자
-            name = "twowon"; // 6개 문자
-            Console.WriteLine("name 변수의 값 : " + name);
+            //string name = "HwangHyunMin"; // 12개의 문자
+            //name = "twowon"; // 6개 문자
+            //Console.WriteLine("name 변수의 값 : " + name);
 
             // 힙 영역
             // 사용자가 직접 메모리 공간을 저정하고 해제하는 영역입니다.
@@ -142,14 +138,14 @@ namespace AcademyCsharp
 
             // if문에 연결된 모든 조건문의 조건이 맞을 때 가장 위에 있는
             // 조건문만 실행됩니다.
-            if (10 == 10)
-            {
-                Console.WriteLine("a");
-            }
-            else if (10 == 10)
-            {
-                Console.WriteLine("b");
-            }
+            //if (10 == 10)
+            //{
+            //    Console.WriteLine("a");
+            //}
+            //else if (10 == 10)
+            //{
+            //    Console.WriteLine("b");
+            //}
 
             // else if문
             // if문의 조건이 틀릴 때 else if문의 조건이 맞다면 실행되는 명령문 입니다.
@@ -157,6 +153,5 @@ namespace AcademyCsharp
             // 반복문이란?
             // 프로그램 내에서 특정한 작업을 반복적으로 수행하는 명령문입니다.
 
-        }
     }
 }
