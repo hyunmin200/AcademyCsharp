@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCsharp", "AcademyCsharp.csproj", "{6BDEA718-C010-4D90-88D5-2A260C27A8C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing_and_UnBoxing", "..\Boxing_and_UnBoxing\Boxing_and_UnBoxing.csproj", "{E80B48D7-BBB7-4EB0-8186-70A5B3A115B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6BDEA718-C010-4D90-88D5-2A260C27A8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BDEA718-C010-4D90-88D5-2A260C27A8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BDEA718-C010-4D90-88D5-2A260C27A8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80B48D7-BBB7-4EB0-8186-70A5B3A115B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80B48D7-BBB7-4EB0-8186-70A5B3A115B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80B48D7-BBB7-4EB0-8186-70A5B3A115B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80B48D7-BBB7-4EB0-8186-70A5B3A115B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\bin\Debug\net6.0\Boxing_and_UnBoxing.exe
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\bin\Debug\net6.0\Boxing_and_UnBoxing.deps.json
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\bin\Debug\net6.0\Boxing_and_UnBoxing.runtimeconfig.json
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\bin\Debug\net6.0\Boxing_and_UnBoxing.dll
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\bin\Debug\net6.0\Boxing_and_UnBoxing.pdb
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\Boxing_and_UnBoxing.csproj.AssemblyReference.cache
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\Boxing_and_UnBoxing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\Boxing_and_UnBoxing.AssemblyInfoInputs.cache
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\Boxing_and_UnBoxing.AssemblyInfo.cs
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\Boxing_and_UnBoxing.csproj.CoreCompileInputs.cache
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\Boxing_and_UnBoxing.dll
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\refint\Boxing_and_UnBoxing.dll
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\Boxing_and_UnBoxing.pdb
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\Boxing_and_UnBoxing.genruntimeconfig.cache
+C:\Users\200won\Desktop\Academy\AcademyCsharp\C# source\Boxing_and_UnBoxing\obj\Debug\net6.0\ref\Boxing_and_UnBoxing.dll
